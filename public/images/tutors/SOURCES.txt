@@ -1,0 +1,16 @@
+Verified snapshots of the public MuseCool tutor API, retrieved 2026-10-06.
+API: https://api.musecool.com/tutor/seo-list
+Names and remote picture URLs are refreshed by the server-rendered page.
+These unmodified downloaded portraits are used only as per-tutor fallbacks.
+
+anastasia-boiko.jpg
+Tutor ID: f02c4de8-ed06-4c1a-abef-cfcfa5b85425
+Name: Anastasia Boiko
+Source: https://musecooldevstorage.blob.core.windows.net/files/https%3A//musecooldevstorage.blob.core.windows.net/files/f02c4de8-ed06-4c1a-abef-cfcfa5b85425.jpg.jpg
+Dimensions: 960 x 1280
+
+anna-mozolevych.jpg
+Tutor ID: 854844d3-7e92-4c5d-aa5f-0c58bef9dc55
+Name: Anna Mozolevych
+Source: https://musecooldevstorage.blob.core.windows.net/files/854844d3-7e92-4c5d-aa5f-0c58bef9dc55.jpg
+Dimensions: 799 x 800

@@ -68,7 +68,9 @@ export default function StudentReviews() {
                 {review.name}
                 <a
                   href={reviewSourceUrl}
-                  aria-label={`Read ${review.name}'s published testimonial on MuseCool`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Read ${review.name}'s published testimonial on MuseCool (opens in a new tab)`}
                   className="mt-1 block w-fit py-2 text-sm font-medium text-[#07546f] underline-offset-4 hover:underline"
                 >
                   Read published testimonial

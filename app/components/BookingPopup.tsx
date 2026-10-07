@@ -857,8 +857,9 @@ export function BookingPopupDialog({
                     <a
                       href="https://musecool.com/uk/privacy-policy/"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="text-[#2f8ab5] underline"
+                      aria-label="Privacy policy (opens in a new tab)"
                     >
                       Privacy Policy
                     </a>

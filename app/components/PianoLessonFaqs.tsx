@@ -100,9 +100,12 @@ export default function PianoLessonFaqs() {
           Still have a question? Read the{" "}
           <a
             href="https://musecool.com/uk/faq/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-semibold text-[#07546f] hover:text-[#06445b]"
           >
             full MuseCool FAQs
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
           .
         </p>

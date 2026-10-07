@@ -102,6 +102,9 @@ export default function Navbar() {
 
             <a
               href={loginUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Log in to MuseCool (opens in a new tab)"
               className="hidden h-12 items-center justify-center gap-2 rounded-full bg-white px-5 text-sm font-black text-[#4d4d4f] shadow-[0_7px_18px_rgba(45,38,31,0.08)] transition hover:-translate-y-0.5 hover:text-[#21190f] focus:outline-none focus:ring-2 focus:ring-[#f47800]/35 md:inline-flex"
             >
               <UserRound className="h-4 w-4" aria-hidden="true" />

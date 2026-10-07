@@ -29,16 +29,22 @@ export default function TutorIntroduction() {
             Our wider tutor network includes musicians trained at the{" "}
             <a
               href="https://www.ram.ac.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-semibold text-[#07546f] hover:text-[#06445b]"
             >
               Royal Academy of Music
+              <span className="sr-only"> (opens in a new tab)</span>
             </a>{" "}
             and the{" "}
             <a
               href="https://www.rcm.ac.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-semibold text-[#07546f] hover:text-[#06445b]"
             >
               Royal College of Music
+              <span className="sr-only"> (opens in a new tab)</span>
             </a>
             . Share your learning goals and any teacher qualification preferences
             when you enquire, so we can help you find a suitable match.

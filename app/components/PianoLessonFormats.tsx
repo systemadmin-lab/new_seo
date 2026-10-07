@@ -19,9 +19,12 @@ function LessonRates({ format }: { format: "inPerson" | "online" }) {
       prices may differ.{" "}
       <a
         href="https://musecool.com/uk/prices/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="font-semibold text-[#07546f] hover:text-[#06445b]"
       >
         View pricing and payment terms
+        <span className="sr-only"> (opens in a new tab)</span>
       </a>
       .
     </p>

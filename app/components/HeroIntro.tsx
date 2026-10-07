@@ -133,7 +133,7 @@ export default function HeroIntro({
               href={siteConfig.googleReviewsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="See MuseCool reviews on Google"
+              aria-label="See MuseCool reviews on Google (opens in a new tab)"
               className="mt-4 inline-flex h-14 items-center justify-start gap-3 rounded-full border border-white bg-white px-4 py-2 text-base font-black text-[#2a2c2f] shadow-[0_18px_45px_rgba(25,25,27,0.12)] transition hover:border-[#F47800] hover:shadow-[0_20px_48px_rgba(244,120,0,0.16)] sm:mt-6 sm:px-5"
             >
               <Image

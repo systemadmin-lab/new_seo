@@ -109,9 +109,12 @@ function MenuColumn({
           <li key={link.path}>
             <a
               href={getMenuLinkHref(selectedVersion, link.path)}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-base font-semibold leading-6 text-[#2a2c2f] transition hover:text-[#f47800]"
             >
               {link.label}
+              <span className="sr-only"> (opens in a new tab)</span>
             </a>
           </li>
         ))}
@@ -195,6 +198,9 @@ export default function NavbarMenu({
           <div className="ml-auto flex min-w-0 items-center justify-end gap-2 sm:gap-4">
             <a
               href={loginUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Log in to MuseCool (opens in a new tab)"
               className="hidden h-11 items-center justify-center gap-2 rounded-full bg-white px-5 text-sm font-black text-[#4d4d4f] shadow-[0_7px_18px_rgba(45,38,31,0.08)] transition hover:-translate-y-0.5 hover:text-[#21190f] focus:outline-none focus:ring-2 focus:ring-[#f47800]/35 sm:inline-flex"
             >
               <UserRound className="h-4 w-4" aria-hidden="true" />
@@ -232,6 +238,9 @@ export default function NavbarMenu({
                 <a
                   key={version}
                   href={config.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${config.label} site (opens in a new tab)`}
                   aria-current={isSelected ? "page" : undefined}
                   className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm transition hover:text-[#f47800] ${
                     isSelected

@@ -65,21 +65,27 @@ export default function Footer() {
               <nav aria-label="MuseCool social links" className="mt-5 flex gap-2.5">
                 <a
                   href="https://www.instagram.com/musecool"
-                  aria-label="MuseCool on Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="MuseCool on Instagram (opens in a new tab)"
                   className="flex size-11 items-center justify-center rounded-full border border-[#bceffa] bg-white text-[#594338] hover:text-[#006184]"
                 >
                   <InstagramIcon />
                 </a>
                 <a
                   href="https://www.facebook.com/search/top?q=MuseCool"
-                  aria-label="MuseCool on Facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="MuseCool on Facebook (opens in a new tab)"
                   className="flex size-11 items-center justify-center rounded-full border border-[#bceffa] bg-white text-[#594338] hover:text-[#006184]"
                 >
                   <FacebookIcon />
                 </a>
                 <a
                   href="https://www.youtube.com/results?search_query=MuseCool"
-                  aria-label="MuseCool on YouTube"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="MuseCool on YouTube (opens in a new tab)"
                   className="flex size-11 items-center justify-center rounded-full border border-[#bceffa] bg-white text-[#594338] hover:text-[#006184]"
                 >
                   <YoutubeIcon />
@@ -108,7 +114,7 @@ export default function Footer() {
                     href={appStoreUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Download MuseCool Tutor from the App Store"
+                    aria-label="Download MuseCool Tutor from the App Store (opens in a new tab)"
                     className="flex min-h-11 items-center gap-2 rounded-lg bg-[#111111] px-3 py-1.5 text-white hover:bg-[#2a2a2a]"
                   >
                     <AppleIcon />
@@ -126,7 +132,7 @@ export default function Footer() {
                     href={googlePlayUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Download MuseCool Tutor from Google Play"
+                    aria-label="Download MuseCool Tutor from Google Play (opens in a new tab)"
                     className="flex min-h-11 items-center gap-2 rounded-lg bg-[#111111] px-3 py-1.5 text-white hover:bg-[#2a2a2a]"
                   >
                     <PlayStoreIcon />
@@ -146,15 +152,21 @@ export default function Footer() {
             <nav aria-label="Footer links" className="type-label mt-auto flex flex-wrap gap-x-4 border-t border-[#bceffa]/70 pt-4 font-bold uppercase tracking-widest text-[#4a6670]">
               <a
                 href="https://musecool.com/uk/privacy-policy/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex min-h-11 items-center hover:text-[#006184]"
               >
                 Privacy
+                <span className="sr-only"> (opens in a new tab)</span>
               </a>
               <a
                 href="https://musecool.com/uk/terms-and-conditions/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex min-h-11 items-center hover:text-[#006184]"
               >
                 Terms
+                <span className="sr-only"> (opens in a new tab)</span>
               </a>
               <a
                 href="mailto:info@musecool.com"
